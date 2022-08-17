@@ -1,0 +1,13 @@
+{
+    "name": "docker-nginx-load-balancing",
+    "version": "1.0.0",
+    "description": "Use Nginx with 3 Nodes web server to try load balancing in Docker",
+    "author": "Reham <soft.rehamabass@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+  }
